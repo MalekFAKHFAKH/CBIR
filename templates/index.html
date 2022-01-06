@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+  <title>Search Engine Application</title>
+  
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+  <!--  CSS Files -->
+  <link href="../static/vendor/aos/aos.css" rel="stylesheet" />
+  <link href="../static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+
+
+  <link rel="stylesheet" href="../static/css/style.css" />
+
+  <!--js file-->
+  <script src="../static/vendor/aos/aos.js"></script>
+  <script src="../static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../static/js/main.js"></script>
+  <script src="../"></script>
+</head>
+
+<body>
+  <section id="hero">
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class=" py-5 py-lg-0 order-2 order-lg-1" data-aos="fade-right">
+          <h1  style="padding-top: 15%; padding-left: 28%;">Reverse Image Search Engine </h1>
+<h4 style=" color: rgb(38, 141, 172); padding-bottom: 7%; padding-left: 22%;" >Get most Similar images to the query image from the database </h4>
+
+
+          <div class="col-lg-12" style="padding-left: 20%; padding-right: 20%; ">
+            <form action="./result1.html" method="post" enctype="multipart/form-data">
+
+
+
+              <input class="form-control form-control-lg" name="query_img" id="query_img" type="file" style="margin-bottom: 70px;">
+
+
+
+
+
+
+              <button class="btn btn-info my-2 my-sm-0" type="submit" style=" margin-top:20% ; margin-left:310px ;"> Search</button>
+
+
+            </form>
+          </div>
+
+        </div>
+        <!-- <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">
+          <img src="../static/img/hero-img.png" class="img-fluid" alt="" />
+        </div> -->
+      </div>
+    </div>
+  </section>
+
+  <script src="../static/vendor/aos/aos.js"></script>
+  <script src="../static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../static/js/main.js"></script>
+  <script type="text/javascript">
+    $("#file-upload").css("opacity", "0");
+
+    $("#file-browser").click(function (e) {
+      e.preventDefault();
+      $("#file-upload").trigger("click");
+    });
+  </script>
+</body>
+
+</html>
