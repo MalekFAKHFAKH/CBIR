@@ -22,4 +22,8 @@ As well we enclosed the work by developing the web interface using Flask.
 
 #### Run the application :
 - Install dependencies : tensorflow...
-- Flask run
+- `Flask run`
+
+![Home](https://user-images.githubusercontent.com/96119446/148929396-042850ec-69ce-4777-b8e2-7a06e7911330.PNG)
+![res1](https://user-images.githubusercontent.com/96119446/148929779-8119ddb1-237b-445d-b3ff-b2635dd8c260.PNG)
+![re2](https://user-images.githubusercontent.com/96119446/148929795-2e21ad44-d454-49f4-bd63-8d7186d6295b.PNG)
